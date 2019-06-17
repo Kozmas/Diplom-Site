@@ -1,0 +1,325 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/фон.jpg")
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#fff;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.356);
+  }
+  .nav-link,
+  .navbar-brand {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: PT Sans Caption;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .toplogo img {
+    height : 45%;
+    width : 45%;
+}
+
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: rgb(216, 169, 15);
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+.osnova{
+  
+  display: flex;
+  flex-direction: column;
+  
+    background-color:rgba(255, 255, 255, 0.9);
+    width: 1024px;
+    height: 100%;
+    margin-top: 50px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.356);
+    margin:0 auto;
+    margin-top: 25px;
+    
+}
+
+.post{
+  margin-top:20px;
+  margin-left: 72px;
+  width: 883px;
+  height: 340px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  
+  background: #FEDA00;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.kartina img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  background-color:#FFFFFF;
+  
+  
+}
+
+
+
+.zagol{
+ display: flex; 
+margin-left: 180px;
+margin-top: -223px;
+margin-bottom: 10px;
+padding-left:5px;
+width: 672px;
+height: 77px;
+
+text-align: center;
+padding-top: 20px;
+font-family: PT Sans Caption;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+
+background: #FFFFFF;
+}
+
+
+.tekst{
+  
+display: flex;
+margin-left:180px;
+margin-bottom: 250px;
+padding-left:5px;
+width: 672px;
+height: 218px;
+
+font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 5px;
+
+background: #FFFFFF;
+}
+
+
+
+
+
+#photo{
+    display: flex;
+    margin-left: 11px;
+    margin-top: 11px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  
+  
+  
+}
+
+#nsozdal{
+  display: flex;
+  margin-left: 11px;
+  margin-top:10px; 
+
+  font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.imya{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+margin-left: 11px;
+margin-top:-10px;
+width: 115px;
+font-family: PT Sans Caption;
+}
+
+
+.form{
+  background-color: #FEDA00;
+}
+
+.nazv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:350px;
+  margin-top: -275px;
+  width: 450px; 
+  height: 50px;
+  
+
+  
+  text-align: center;
+  padding-top: 20px;
+  font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+  
+  background: #FFFFFF;
+}
+
+.opis{
+ display: flex;
+width: 450px;
+height: 150px;
+margin-top:10px;
+margin-left: 350px;
+
+font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 5px;
+  overflow: auto;
+
+background: #FFFFFF;
+}
+
+.kartina{
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin-left: 11px;
+  margin-top: 11px;
+  
+  
+  background: url(images/react-logo.png);
+  background-position: center ; 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+
+.datisobitiya{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 350px;
+}
+
+.data{
+width: 170px;
+height: 29px;
+margin-left: 0px;
+
+background-color: #FFFFFF;
+font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  padding: 1px;  
+
+}
+
+.vrem{
+  
+width: 170px;
+height: 29px;
+
+background-color: #FFFFFF;
+font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  padding: 1px;  
+}
+
+.signin{
+  display: flex;
+  margin-right:11px;
+  margin-top:35px;
+  width: 125px;
+  height: 35px;
+  
+  background-color: #FEDA00;
+  font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 21px;
+    padding: 5px;
+    text-align: center;
+    padding: 1px; 
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.356), 2px 2px 2px rgba(0, 0, 0, 0.250) inset;
+    
+}
+
+.signin:hover{
+  background-color: rgb(165, 141, 4);
+}
+
+.Rmenu{
+  position: sticky;
+  float: right;
+  margin-right: 50px;
+  top:110px;
+  width:250px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.90);
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.356)
+  
+}
+
+#rmenu{
+  display: flex;
+  margin: 0 auto;
+  margin-top:55px;
+  background-color:rgb(254, 216, 0);
+  font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 21px;
+    border-radius:7px;
+    text-align: center;
+    padding: 5px; 
+
+    outline: none;
+
+    
+}
+
+.namesozd{
+  display: flex;
+  margin-top:-20px; 
+  margin-left: 11px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  width: 100px;
+ 
+}
+
+#sozdal{
+  display: flex;
+  margin-left: 11px;
+  margin-top:-40px; 
+
+  font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 12px;
+}

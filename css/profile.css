@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/FEDA00.jpg");
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#fff;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.356);
+  }
+  .nav-link,
+  .navbar-brand {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: PT Sans Caption;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .toplogo img {
+    height : 45%;
+    width : 45%;
+}
+
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: rgb(216, 169, 15);
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+.osnova{
+    background-color:rgba(255, 255, 255);
+    width: 1024px;
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.356);
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.photo{
+    
+position: relative;
+left: 37px;
+top: 34px;
+}
+
+.profname{
+
+    display: flex;
+    margin-left: 420px;
+    margin-top:-350px;
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    
+}
+
+.nameemail{
+  display: flex;
+  flex-direction: column;
+  margin-left: 420px;
+  padding: 5px;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+
+#mail {
+  
+  
+  box-sizing: border-box;
+  border: 3px solid #FEDA00;
+  border-radius: 10px;
+  width: 300px;
+  padding-left: 5px;
+  padding-top: 2px;
+
+  
+}
+
+#password{
+  
+  box-sizing: border-box;
+  border: 3px solid #FEDA00;
+  border-radius: 10px;
+  margin-top: 2px;
+  padding-left: 5px;
+  padding-top: 2px;
+  width: 300px;
+}
+
+
+
+#userimage{
+  display: flex;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#changephoto{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 25px;
+
+  box-sizing: border-box;
+  border: 3px solid #FEDA00;
+  border-radius: 5px;
+  
+}
+
+
+#foto{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 265px;
+
+  box-sizing: border-box;
+  border: 3px solid #FEDA00;
+  border-radius: 5px;
+}
+
+

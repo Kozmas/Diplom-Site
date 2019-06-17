@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/фон.jpg")
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#fff;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.356);
+  }
+  .nav-link,
+  .navbar-brand {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: PT Sans Caption;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .toplogo img {
+    height : 45%;
+    width : 45%;
+}
+
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: rgb(216, 169, 15);
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+.osnova{
+    background-color:rgba(255, 255, 255, 0.90);
+    width: 1024px;
+    height: 1024px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.356);
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+
+.zagol{
+    
+    text-align: center;
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 45px;
+    padding-top: 10px;
+}
+
+.paramL{
+    position: relative;
+    padding:20px;
+    padding-top:55px;
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+.nazv{
+position: relative;
+
+width: 55px;
+
+height: 75px;
+text-align: center;
+
+font-family: "Roboto Slab", serif;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+outline: none;
+}
+
+.paramR{
+    position:relative;
+    left: 650px;
+    top:-392px;
+
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+       
+}
+
+#foto{
+display: flex;
+margin-left:-280px;
+
+width: 375px;
+
+
+
+background-color: #FEDA00;
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: bolder;
+font-size: 21px;
+padding: 5px;
+text-align: center;
+padding: 1px; 
+
+outline: none;
+
+box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.356)
+}
+
+.kartinka{
+    position: relative;
+width: 150px;
+height: 150px;
+left: 300px;
+top: 25px;
+
+
+
+
+
+background: url(images/react-logo.png);
+background-position: center ; 
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+
+#ops{
+    position: relative;
+    top:12px;
+    left:35px;
+    height: 40px;
+    width: 200px;
+    
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: bolder;
+font-size: 21px;
+text-align: left;
+}
+
+.opisanie{
+    top:10px;
+    left:35px;
+    position: relative;
+    height: 220px;
+    width: 746px;
+    resize: none;
+    padding: 10px;
+    font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+#sozsob{
+    position: relative;
+    margin-left: 5%;
+    top:0px;
+    
+
+    width: 200px;
+
+   
+  font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 21px;
+    padding: 5px;
+    text-align: center;
+    padding: 1px; 
+
+    outline: none;
+    background: #FEDA00;
+
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.356)
+}

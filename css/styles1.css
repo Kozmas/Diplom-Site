@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image:url("../images/FEDA00.jpg")
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.356);
+  }
+  .nav-link,
+  .navbar-brand {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: PT Sans Caption;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .toplogo img {
+    height : 45%;
+    width : 45%;
+}
+
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: rgb(216, 169, 15);
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+
+  .osnova{
+    background-color: rgb(255, 255, 255);
+    width: 426px;
+    height: 353px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.356);
+    margin: 0 auto;
+    margin-top: 230px;
+    
+    
+}
+
+.zagol{
+  
+width: 426px;
+height: 56px;
+
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 29px;
+text-align: center;
+margin-top: 5px;
+
+
+color: #000000;
+}
+
+#email {
+  width: 65%;
+  padding-left:5px;
+  
+  margin: 0 auto;
+  margin: 7px;
+  margin-left: 73px;
+  
+  box-sizing: border-box;
+  border: 5px solid #FEDA00;
+  border-radius: 10px;
+
+
+}
+
+#email:focus {
+  border: 5px solid rgb(216, 169, 15);
+}
+
+#name{
+  padding-left:5px;
+  width: 65%;
+  
+  padding: 12px 0x;
+  margin: 7px;
+  margin-left: 73px;
+  padding-left: 4px;
+
+  box-sizing: border-box;
+  border: 5px solid #FEDA00;
+  border-radius: 10px;
+}
+
+#fam{
+  padding-left:5px;
+  width: 65%;
+  
+  
+  margin: 7px;
+  margin-left: 73px;
+  padding-left: 4px;
+  
+ 
+  box-sizing: border-box;
+  border: 5px solid #FEDA00;
+  border-radius: 10px;
+  
+}
+
+
+input[type=password]{
+  width: 65%;
+  padding-left:5px;
+  
+  
+  margin: 7px;
+  margin-left: 73px;
+ 
+  
+  box-sizing: border-box;
+  border: 5px solid #FEDA00;
+  border-radius: 10px;
+
+  
+
+}
+
+input[type=text]:focus {
+  border: 5px solid rgb(216, 169, 15);
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 5px 15px;
+  cursor: pointer;
+  width: 178px;
+height: 90px;
+left: 514px;
+top: 549px;
+
+background-color: #FEDA00;
+border-radius: 2px;
+
+font-family: PT Sans Caption;
+font-weight: 500;
+font-size: 22px;
+color:#000000; 
+
+}
+
+#regis{
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 8px 123px;
+  cursor: pointer;
+  width: 178px;
+  height: 85px;
+  left: 747px;
+  top: 549px;
+  padding-left: 23px;
+  text-align: center;
+  
+
+background-color: #FEDA00;
+border-radius: 2px;
+
+font-family: PT Sans Caption;
+font-weight: 500;
+font-size: 22px;
+color:#000000;
+text-align: left;
+}
+
+#nazva{
+  width: 300px;
+height: 56px;
+margin:0 auto;
+margin-left: 100px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 29px;
+text-align: center;
+margin-top: 5px;
+}
+
